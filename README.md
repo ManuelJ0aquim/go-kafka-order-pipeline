@@ -86,7 +86,6 @@ The producer will publish a batch of sample orders to `orders-topic`; the consum
 | `make producer` | Runs the producer application                         |
 | `make consumer` | Runs the consumer application                         |
 | `make build`    | Compiles producer and consumer binaries into `./bin/` |
-| `make test`     | Runs the project's unit tests                         |
 | `make fmt`      | Formats the Go source code                            |
 | `make clean`    | Removes compiled binaries                             |
 
