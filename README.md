@@ -8,7 +8,7 @@ This project simulates a real-world e-commerce order flow: a **producer** publis
 
 **Architecture diagram:**
 
-![Architecture diagram](files/orders-pipeline-architecture.png)
+![Architecture diagram](files/orders-pipeline-architecture-b.png)
 
 ## Architecture
 
@@ -79,7 +79,7 @@ The producer will publish a batch of sample orders to `orders-topic`; the consum
 | Command         | Description                                           |
 | --------------- | ----------------------------------------------------- |
 | `make help`     | Shows all available commands                          |
-| `make up`       | Starts Kafka + Zookeeper via Docker Compose           |
+| `make up`       | Starts Kafka via Docker Compose                       |
 | `make down`     | Stops and removes the infrastructure containers       |
 | `make restart`  | Restarts the infrastructure (`down` + `up`)           |
 | `make status`   | Shows the status of running containers                |
