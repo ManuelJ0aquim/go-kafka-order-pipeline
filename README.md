@@ -128,7 +128,3 @@ The producer will publish a batch of sample orders to `orders-topic`; the consum
 - Add unit tests for `process_order.go`
 - Add consumer group support for horizontal scaling
 - Persist processed orders to a database
-
-## License
-
-MIT
