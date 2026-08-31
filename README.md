@@ -8,7 +8,7 @@ This project simulates a real-world e-commerce order flow: a **producer** publis
 
 **Architecture diagram:**
 
-![Architecture diagram](files/orders-pipeline-architecture-b.png)
+![Architecture diagram](files/orders-pipeline-architecture-w.png)
 
 ## Architecture
 
